@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>มหาวิทยาลัยที่อยากเข้า - คณะพยาบาลศาสตร์</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Prompt', sans-serif; }
+        body {
+            background: linear-gradient(135deg, #fce7f3 0%, #fae8ff 50%, #f3e8ff 100%);
+            color: #374151;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(219, 39, 119, 0.15);
+            border: 2px solid #fbcfe8;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .emblem-box {
+            width: 160px;
+            height: 160px;
+            margin: 0 auto 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            border-radius: 50%;
+            padding: 10px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+            border: 3px solid #f472b6;
+        }
+        .emblem-box img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        h1 {
+            font-size: 1.8rem;
+            color: #be185d;
+            margin-bottom: 10px;
+        }
+        .faculty-name {
+            font-size: 1.3rem;
+            color: #db2777;
+            font-weight: 600;
+        }
+        .content-box {
+            background: #fdf2f8;
+            padding: 30px;
+            border-radius: 16px;
+            border: 1px solid #fbcfe8;
+            margin-top: 25px;
+        }
+        .section-title {
+            font-size: 1.2rem;
+            color: #be185d;
+            margin-bottom: 15px;
+            font-weight: 600;
+            border-left: 4px solid #db2777;
+            padding-left: 10px;
+        }
+        p {
+            line-height: 1.8;
+            color: #4b5563;
+            margin-bottom: 15px;
+            font-size: 1.05rem;
+        }
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .btn {
+            background: #db2777;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background: #be185d;
+            transform: translateY(-2px);
+        }
+        .btn-secondary {
+            background: #9ca3af;
+        }
+        .btn-secondary:hover {
+            background: #6b7280;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="emblem-box">
+                <!-- เปลี่ยน src เป็นชื่อไฟล์ตรามหาวิทยาลัย Emblem_of_Ramkhamhaeng_University_2C_BW.png เมื่อนำไปใช้งานจริง -->
+                <img src="Emblem_of_Ramkhamhaeng_University_2C_BW.png" alt="Ramkhamhaeng University Emblem" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <div style="display:none; color: #9d174d; font-size: 0.8rem; text-align:center;">ตรามหาวิทยาลัยรามคำแหง</div>
+            </div>
+            <h1>มหาวิทยาลัยที่อยากเข้า</h1>
+            <div class="faculty-name">มหาวิทยาลัยรามคำแหง • คณะพยาบาลศาสตร์</div>
+        </div>
+
+        <div class="content-box">
+            <div class="section-title">เหตุผลที่อยากเข้าศึกษาต่อ</div>
+            <p>
+                มีความชอบด้านงานพยาบาลมาโดยตลอด มีใจรักในการช่วยเหลือผู้อื่น และมีความสุขทุกครั้งเมื่อได้เห็นรอยยิ้มและการหายจากอาการเจ็บป่วยของผู้ป่วย งานพยาบาลเป็นอาชีพที่มีเกียรติและได้อุทิศตนเพื่อประโยชน์ส่วนรวม
+            </p>
+            <p>
+                นอกจากนี้ การได้ศึกษาในคณะพยาบาลศาสตร์ มหาวิทยาลัยรามคำแหง จะช่วยหล่อหลอมให้มีความรู้ทางวิชาการที่แม่นยำ มีทักษะการปฏิบัติงานอย่างมืออาชีพ มีความอดทน เสียสละ และมีจริยธรรมแห่งวิชาชีพพยาบาล พร้อมที่จะเติบโตไปเป็นบุคลากรทางการแพทย์ที่มีคุณภาพเพื่อดูแลสังคมและคนในครอบครัวต่อไปในอนาคต
+            </p>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="profile.html" class="btn btn-secondary">← ประวัติส่วนตัว</a>
+            <a href="activities.html" class="btn">ช่องทางการติดต่อ →</a>
+        </div>
+    </div>
+</body>
+</html>

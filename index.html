@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ยินดีต้อนรับสู่เว็บไซต์ Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Prompt', sans-serif; }
+        body {
+            background: linear-gradient(135deg, #fce7f3 0%, #fae8ff 50%, #f3e8ff 100%);
+            color: #4a4a4a;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 50px 40px;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(219, 39, 119, 0.15);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+            border: 2px solid #fbcfe8;
+        }
+        h1 {
+            font-size: 2.2rem;
+            color: #be185d;
+            margin-bottom: 25px;
+            font-weight: 700;
+        }
+        .img-box {
+            width: 220px;
+            height: 220px;
+            margin: 0 auto 30px auto;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid #f472b6;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            background-color: #fbcfe8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .img-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .placeholder-text {
+            color: #9d174d;
+            font-size: 0.95rem;
+            padding: 10px;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #ec4899 0%, #db2777 100%);
+            color: white;
+            padding: 14px 35px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 10px 20px rgba(219, 39, 119, 0.3);
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 25px rgba(219, 39, 119, 0.4);
+            background: linear-gradient(135deg, #db2777 0%, #be185d 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ยินดีต้อนรับสู่เว็บไซต์ Portfolio</h1>
+        <div class="img-box">
+            <!-- เปลี่ยน src เป็นชื่อไฟล์รูปภาพ S__69296199.jpg เมื่อนำไปใช้งานจริง -->
+            <img src="S__69296199.jpg" alt="Portfolio Image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <div class="placeholder-text" style="display:none;">รูปภาพ<br>S__69296199.jpg</div>
+        </div>
+        <a href="profile.html" class="btn">เข้าสู่เว็บไซต์ ➔</a>
+    </div>
+</body>
+</html>
